@@ -38,6 +38,11 @@
                 </div>
             </div>
         </div>
+        <div class="row mt-5">
+            <p class="text-center">
+                Made by <a href="https://wikisolucoes.com.br" target="_blank" title="WIKI SOLUÇÕES INTELIGENTES"><b>WIKI SOLUÇÕES INTELIGENTES</b></a>
+            </p>
+        </div>
     </div>
 </body>
 
