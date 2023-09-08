@@ -35,8 +35,8 @@ if ($_REQUEST['smtp_host']) {
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         $mail->send();
-        echo '<h2 class="text-success">Message has been sent</h2>';
+        echo '<h2 class="alert alert-success mt-3">Message has been sent</h2>';
     } catch (Exception $e) {
-        echo "<h2 class='text-danger'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</h2>";
+        echo "<h2 class='alert alert-danger mt-3'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</h2>";
     }
 }
